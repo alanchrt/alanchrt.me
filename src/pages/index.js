@@ -61,7 +61,7 @@ const IndexPage = () => (
             </Box>
             <Typography variant="body1">
             <Box mb={2}>
-              <ItemLink icon={<GrMap />} href="https://goo.gl/maps/r2mXQzCiqWBF8ryL8">Windsor, Colorado, USA</ItemLink>
+              <ItemLink icon={<GrMap />} href="https://www.google.com/maps/search/?api=1&query=Windsor,+CO">Windsor, Colorado, USA</ItemLink>
               <ItemLink icon={<FiAtSign />} href="mailto:alan@chrt.me">alan@chrt.me</ItemLink>
               <ItemLink icon={<GrPhone />} href="tel:+18168054272">816-805-4272</ItemLink>
               <ItemLink icon={<GrGithub />} href="https://github.com/alanchrt">alanchrt</ItemLink>
