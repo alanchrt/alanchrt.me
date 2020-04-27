@@ -14,6 +14,8 @@ import { FiTwitter } from 'react-icons/fi';
 import { GrFacebookOption } from 'react-icons/gr';
 import { GrLinkedinOption } from 'react-icons/gr';
 
+import Tentmaker from '../icons/Tentmaker';
+
 const theme = createMuiTheme({
   palette: {
     background: {
@@ -67,7 +69,8 @@ const IndexPage = () => (
             <ItemLink icon={<GrGithub />} href="https://github.com/alanchrt">alanchrt</ItemLink>
             <ItemLink icon={<FiTwitter />} href="https://twitter.com/alanchrt">alanchrt</ItemLink>
             <ItemLink icon={<GrFacebookOption />} href="https://www.facebook.com/alanchrt">alanchrt</ItemLink>
-            <ItemLink icon={<GrLinkedinOption />} href="https://www.linkedin.com/in/alanchrt" mb={0}>alanchrt</ItemLink>
+            <ItemLink icon={<GrLinkedinOption />} href="https://www.linkedin.com/in/alanchrt">alanchrt</ItemLink>
+            <ItemLink icon={<Tentmaker />} href="https://tentmaker.co" mb={0}>tentmaker</ItemLink>
           </Box>
         </Paper>
       </Container>
