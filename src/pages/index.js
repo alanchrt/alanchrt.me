@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
+import { AiOutlineContacts } from 'react-icons/ai';
 import { GrMap } from 'react-icons/gr';
 import { FiAtSign } from 'react-icons/fi';
 import { GrPhone } from 'react-icons/gr';
@@ -60,9 +61,16 @@ const IndexPage = () => (
       <Container maxWidth="xs">
         <Paper elevation={1}>
           <Box p={4}>
-            <Box mb={2}>
-              <Typography variant="h3" component="h1">Alan Christopher Thomas</Typography>
+            <Box display="flex" flexDirection="row" alignItems="start" mb={2}>
+              <Box mr={1}>
+                <Typography variant="h3" component="h1">Alan Christopher Thomas</Typography>
+              </Box>
+              <Box display="flex" flexGrow={1} justifyContent="end">
+                <Typography component="div" variant="subtitle2"><Link download href="/alanchrt.vcf">Contact</Link></Typography>
+                <Box display="flex" alignItems="center" ml={0.75}><Typography component="div" variant="body1"><AiOutlineContacts /></Typography></Box>
+              </Box>
             </Box>
+
             <ItemLink icon={<GrMap />} href="https://www.google.com/maps/search/?api=1&query=Windsor,+CO">Windsor, Colorado, USA</ItemLink>
             <ItemLink icon={<FiAtSign />} href="mailto:alan@alanct.com">alan@alanct.com</ItemLink>
             <ItemLink icon={<GrPhone />} href="tel:+18168054272">816-805-4272</ItemLink>
