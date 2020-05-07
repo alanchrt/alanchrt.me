@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
@@ -56,7 +57,47 @@ const ItemLink = ({ icon, href, mb = 1, children }) => (
 
 const IndexPage = () => (
   <ThemeProvider theme={theme}>
+    <Helmet
+      htmlAttributes={{ lang: 'en' }}
+      title="Alan Christopher Thomas — Windsor, CO"
+      meta={[
+        {
+          name: `description`,
+          content: 'Personal site for Alan Christopher Thomas (alanchrt)',
+        },
+        {
+          property: `og:title`,
+          content: 'Personal site for Alan Christopher Thomas (alanchrt)',
+        },
+        {
+          property: `og:description`,
+          content: 'Personal site for Alan Christopher Thomas (alanchrt)',
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: 'Alan Christopher Thomas',
+        },
+        {
+          name: `twitter:title`,
+          content: 'Alan Christopher Thomas — Windsor, CO',
+        },
+        {
+          name: `twitter:description`,
+          content: 'Personal site for Alan Christopher Thomas (alanchrt)',
+        },
+      ]}
+    />
+
     <CssBaseline />
+
     <Box m={4}>
       <Container maxWidth="xs">
         <Paper elevation={1}>
