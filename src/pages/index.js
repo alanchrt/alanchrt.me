@@ -103,17 +103,17 @@ const IndexPage = () => (
       <Container maxWidth="xs">
         <Paper elevation={1}>
           <Box p={4}>
-            <Box display="flex" flexDirection="row" alignItems="start" mb={2}>
-              <Box mr={2}>
+            <Box mb={2}>
+              <Box mb={1}>
                 <Typography variant="h3" component="h1">Alan Christopher Thomas</Typography>
               </Box>
-              <Box display="flex" flexGrow={1} justifyContent="end">
+              <Box display="flex" >
                 <Typography component="div" variant="subtitle2"><Link download href="/alanchrt.vcf">Contact</Link></Typography>
-                <Box display="flex" alignItems="center" ml={0.75}><Typography component="div" variant="body1"><AiOutlineContacts /></Typography></Box>
+                <Box display="flex" alignItems="center" ml={0.75}><Box fontSize={18}><AiOutlineContacts /></Box></Box>
               </Box>
             </Box>
 
-            <ItemLink icon={<GrMap />} href="https://www.google.com/maps/search/?api=1&query=Windsor,+CO">Windsor, Colorado, USA</ItemLink>
+            <ItemLink icon={<GrMap />} href="https://www.google.com/maps/search/?api=1&query=Windsor,+CO">Windsor, Colorado</ItemLink>
             <ItemLink icon={<FiAtSign />} href="mailto:alan@alanct.com">alan@alanct.com</ItemLink>
             <ItemLink icon={<GrPhone />} href="tel:+18168054272">816-805-4272</ItemLink>
             <ItemLink icon={<GrGithub />} href="https://github.com/alanchrt">alanchrt</ItemLink>
