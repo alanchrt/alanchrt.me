@@ -17,6 +17,7 @@ import { FiTwitter } from 'react-icons/fi';
 import { GrFacebookOption } from 'react-icons/gr';
 import { GrLinkedinOption } from 'react-icons/gr';
 
+import Smallstep from '../icons/Smallstep';
 import Tentmaker from '../icons/Tentmaker';
 
 const theme = createMuiTheme({
@@ -134,6 +135,7 @@ const IndexPage = () => (
               <Typography variant="h5">Professional</Typography>
             </Box>
 
+            <ItemLink icon={<Smallstep />} href="https://smallstep.com">smallstep</ItemLink>
             <ItemLink icon={<Tentmaker />} href="https://tentmaker.co" mb={0}>tentmaker</ItemLink>
           </Box>
         </Paper>
