@@ -25,6 +25,7 @@ const theme = createMuiTheme({
     },
   },
   typography: {
+    fontSize: 16,
     h1: {
       fontSize: '2.0rem',
     },
@@ -103,7 +104,7 @@ const IndexPage = () => (
         <Paper elevation={1}>
           <Box p={4}>
             <Box display="flex" flexDirection="row" alignItems="start" mb={2}>
-              <Box mr={1}>
+              <Box mr={2}>
                 <Typography variant="h3" component="h1">Alan Christopher Thomas</Typography>
               </Box>
               <Box display="flex" flexGrow={1} justifyContent="end">
