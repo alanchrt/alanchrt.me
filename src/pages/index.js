@@ -16,6 +16,7 @@ import { GrGithub } from 'react-icons/gr';
 import { FiTwitter } from 'react-icons/fi';
 import { GrFacebookOption } from 'react-icons/gr';
 import { GrLinkedinOption } from 'react-icons/gr';
+import { FaAngellist } from 'react-icons/fa';
 
 import Smallstep from '../icons/Smallstep';
 import Tentmaker from '../icons/Tentmaker';
@@ -126,6 +127,7 @@ const IndexPage = () => (
             <ItemLink icon={<FiTwitter />} href="https://twitter.com/alanchrt">alanchrt</ItemLink>
             <ItemLink icon={<GrFacebookOption />} href="https://www.facebook.com/alanchrt">alanchrt</ItemLink>
             <ItemLink icon={<GrLinkedinOption />} href="https://www.linkedin.com/in/alanchrt">alanchrt</ItemLink>
+            <ItemLink icon={<FaAngellist />} href="https://angel.co/u/alanchrt">alanchrt</ItemLink>
 
             <Box my={4}>
               <Divider />
