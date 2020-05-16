@@ -111,7 +111,7 @@ const IndexPage = () => (
             </Box>
 
             <ItemLink icon={<GrMap />} href="https://www.google.com/maps/search/?api=1&query=Windsor,+CO">Windsor, Colorado</ItemLink>
-            <ItemLink icon={<FiAtSign />} href="mailto:alan@alanct.com">alan@alanct.com</ItemLink>
+            <ItemLink icon={<FiAtSign />} href="mailto:alan@chrt.me">alan@chrt.me</ItemLink>
             <ItemLink icon={<GrPhone />} href="tel:+18168054272">816-805-4272</ItemLink>
             <ItemLink download icon={<AiOutlineContacts />} href="/alanchrt.vcf" mb={0}>Contact card</ItemLink>
 

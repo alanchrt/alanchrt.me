@@ -3,7 +3,7 @@
   "private": true,
   "description": "Alan Christopher Thomas personal site",
   "version": "0.1.0",
-  "author": "Alan Thomas <alan@alanct.com>",
+  "author": "Alan Thomas <alan@chrt.me>",
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "@material-ui/styles": "^4.9.10",
